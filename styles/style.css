@@ -1,7 +1,8 @@
 
 body {
   margin: 0;
-  font:normal 75% Arial, Helvetica, sans-serif;
+  font:normal 75% Inconsolata, monospace;
+  text-align: center;
 }
 
 canvas {
@@ -11,11 +12,29 @@ canvas {
 
 .panel {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   z-index: 1;
   width: 200px;
   margin: -110px 0 0 -100px;
+}
+
+.panel h1 {
+  letter-spacing: 2px;
+  color: #bbb;
+}
+
+.panel h2 {
+  letter-spacing: 5px;
+  font-size: 16px;
+  color: #57979A;
+}
+
+.panel p {
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: #6F7B7B;
+  line-height: 40px;
 }
 
 img {
